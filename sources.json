@@ -1,0 +1,150 @@
+{
+  "project_name": "Canadian Health Monitor",
+  "digest_title": "Canadian Health Monitor Weekly Digest",
+  "digest_description": "Weekly Canadian health technology, regulation, privacy, cybersecurity, and health data updates.",
+  "keywords": {
+    "priority": [
+      "regulatory",
+      "regulation",
+      "Health Canada",
+      "EMR",
+      "EHR",
+      "electronic medical record",
+      "electronic health record",
+      "CIHI",
+      "Canadian Institute for Health Information",
+      "Infoway",
+      "Canada Health Infoway",
+      "interoperability",
+      "FHIR",
+      "HL7",
+      "SNOMED",
+      "privacy",
+      "PIPEDA",
+      "Privacy Act",
+      "cybersecurity",
+      "cyber security",
+      "ransomware",
+      "data breach",
+      "health data",
+      "health information",
+      "digital health",
+      "virtual care",
+      "e-prescribing",
+      "patient portal",
+      "health sector data space",
+      "artificial intelligence",
+      "AI"
+    ],
+    "general_news_requires_match": true
+  },
+  "sources": [
+    {
+      "name": "Health Canada",
+      "kind": "official_health_regulatory",
+      "feed_format": "atom",
+      "feed_url": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=departmentofhealth&sort=publishedDate&orderBy=desc&publishedDate%3E=2021-07-23&pick=50&format=atom&atomtitle=Health%20Canada",
+      "homepage": "https://www.canada.ca/en/health-canada.html",
+      "requires_keyword_match": false,
+      "priority_score": 90
+    },
+    {
+      "name": "Public Health Agency of Canada",
+      "kind": "official_health",
+      "feed_format": "atom",
+      "feed_url": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=publichealthagencyofcanada&sort=publishedDate&orderBy=desc&publishedDate%3E=2021-07-23&pick=50&format=atom&atomtitle=Public%20Health%20Agency%20of%20Canada",
+      "homepage": "https://www.canada.ca/en/public-health.html",
+      "requires_keyword_match": false,
+      "priority_score": 75
+    },
+    {
+      "name": "Canadian Institute for Health Information",
+      "kind": "official_health_data",
+      "feed_format": "rss",
+      "feed_url": "https://www.cihi.ca/en/feed",
+      "homepage": "https://www.cihi.ca/en",
+      "requires_keyword_match": false,
+      "priority_score": 100
+    },
+    {
+      "name": "Canadian Institutes of Health Research",
+      "kind": "official_health_research",
+      "feed_format": "atom",
+      "feed_url": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=instituteshealthresearch&sort=publishedDate&orderBy=desc&publishedDate%3E=2021-07-23&pick=50&format=atom&atomtitle=Canadian%20Institutes%20of%20Health%20Research",
+      "homepage": "https://cihr-irsc.gc.ca/e/193.html",
+      "requires_keyword_match": true,
+      "priority_score": 60
+    },
+    {
+      "name": "Patented Medicine Prices Review Board",
+      "kind": "official_health_regulatory",
+      "feed_format": "atom",
+      "feed_url": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=patentedmedicinepricesreviewboard&sort=publishedDate&orderBy=desc&publishedDate%3E=2021-07-23&pick=50&format=atom&atomtitle=Patented%20Medicine%20Prices%20Review%20Board",
+      "homepage": "https://www.canada.ca/en/patented-medicine-prices-review.html",
+      "requires_keyword_match": true,
+      "priority_score": 70
+    },
+    {
+      "name": "Office of the Privacy Commissioner of Canada - News",
+      "kind": "official_privacy",
+      "feed_format": "rss",
+      "feed_url": "https://www.priv.gc.ca/en/rss/news/",
+      "homepage": "https://www.priv.gc.ca/en/",
+      "requires_keyword_match": false,
+      "priority_score": 85
+    },
+    {
+      "name": "Office of the Privacy Commissioner of Canada - Guidance for Businesses",
+      "kind": "official_privacy_guidance",
+      "feed_format": "rss",
+      "feed_url": "https://www.priv.gc.ca/en/rss/gb/",
+      "homepage": "https://www.priv.gc.ca/en/",
+      "requires_keyword_match": true,
+      "priority_score": 80
+    },
+    {
+      "name": "Canadian Centre for Cyber Security - Alerts and Advisories",
+      "kind": "official_cybersecurity",
+      "feed_format": "atom",
+      "feed_url": "https://www.cyber.gc.ca/api/cccs/atom/v1/get?feed=alerts_advisories&lang=en",
+      "homepage": "https://www.cyber.gc.ca/en/alerts-advisories",
+      "requires_keyword_match": false,
+      "priority_score": 85
+    },
+    {
+      "name": "Canadian Centre for Cyber Security - Guidance, News and Events",
+      "kind": "official_cybersecurity_guidance",
+      "feed_format": "atom",
+      "feed_url": "https://www.cyber.gc.ca/api/cccs/atom/v1/get?feed=news_events_guidance&lang=en",
+      "homepage": "https://www.cyber.gc.ca/en",
+      "requires_keyword_match": true,
+      "priority_score": 75
+    },
+    {
+      "name": "CBC Health",
+      "kind": "general_news",
+      "feed_format": "rss",
+      "feed_url": "https://www.cbc.ca/cmlink/rss-health",
+      "homepage": "https://www.cbc.ca/news/health",
+      "requires_keyword_match": true,
+      "priority_score": 40
+    },
+    {
+      "name": "Global News Health",
+      "kind": "general_news",
+      "feed_format": "rss",
+      "feed_url": "https://globalnews.ca/health/feed/",
+      "homepage": "https://globalnews.ca/health/",
+      "requires_keyword_match": true,
+      "priority_score": 40
+    }
+  ],
+  "watchlist_pages_without_rss": [
+    {
+      "name": "Canada Health Infoway",
+      "kind": "official_digital_health",
+      "page_url": "https://www.infoway-inforoute.ca/en/news-events/announcements",
+      "reason": "Important for digital health and interoperability, but no working RSS or Atom feed was found during setup."
+    }
+  ]
+}
