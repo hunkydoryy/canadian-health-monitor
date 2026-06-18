@@ -317,46 +317,48 @@ def add_text_element(parent, tag_name, text):
     return element
 
 
-def build_item_description(item):
-    keywords = ", ".join(item["keywords"])
-    description_lines = [
-        f"Source: {item['source']}",
-        f"Matched keywords: {keywords}",
-    ]
+def build_weekly_digest_description(matched_items):
+    if not matched_items:
+        return "No relevant Canadian health monitor updates found this week."
 
-    if item["published_label"] != "Unknown date":
-        description_lines.append(f"Published: {item['published_label']}")
+    description_lines = ["Top updates", ""]
 
-    return "\n".join(description_lines)
+    for item in matched_items:
+        keywords = ", ".join(item["keywords"])
+        link = item["link"] or "No link available"
+
+        description_lines.extend(
+            [
+                f"- {item['title']}",
+                f"  Source: {item['source']}",
+                f"  Published: {item['published_label']}",
+                f"  Matched keywords: {keywords}",
+                f"  Link: {link}",
+                "",
+            ]
+        )
+
+    return "\n".join(description_lines).strip()
 
 
-def add_rss_item(channel, item):
+def add_weekly_digest_item(channel, matched_items, generated_at):
+    weekly_date = generated_at.date().isoformat()
     rss_item = SubElement(channel, "item")
-    link = item["link"] or ""
 
-    add_text_element(rss_item, "title", item["title"])
-    add_text_element(rss_item, "link", link)
-    add_text_element(rss_item, "description", build_item_description(item))
-
-    if item["published_datetime"]:
-        add_text_element(rss_item, "pubDate", format_datetime(item["published_datetime"]))
-
-    guid = link or f"{item['source']} - {item['title']}"
-    guid_element = add_text_element(rss_item, "guid", guid)
-    guid_element.set("isPermaLink", "true" if link else "false")
-
-
-def add_no_updates_item(channel):
-    rss_item = SubElement(channel, "item")
-    message = "No relevant Canadian health monitor updates found this week."
-
-    add_text_element(rss_item, "title", message)
-    add_text_element(rss_item, "description", message)
-    guid_element = add_text_element(rss_item, "guid", "no-updates-this-week")
+    add_text_element(
+        rss_item,
+        "title",
+        f"Weekly Canadian Health Monitor Digest - {weekly_date}",
+    )
+    add_text_element(rss_item, "link", RSS_LINK)
+    add_text_element(rss_item, "description", build_weekly_digest_description(matched_items))
+    add_text_element(rss_item, "pubDate", format_datetime(generated_at))
+    guid_element = add_text_element(rss_item, "guid", f"weekly-digest-{weekly_date}")
     guid_element.set("isPermaLink", "false")
 
 
 def create_digest_xml(matched_items):
+    generated_at = datetime.now(timezone.utc)
     rss = Element("rss", {"version": "2.0"})
     channel = SubElement(rss, "channel")
 
@@ -364,18 +366,14 @@ def create_digest_xml(matched_items):
     add_text_element(channel, "link", RSS_LINK)
     add_text_element(channel, "description", RSS_DESCRIPTION)
     add_text_element(channel, "language", "en-ca")
-    add_text_element(channel, "lastBuildDate", format_datetime(datetime.now(timezone.utc)))
+    add_text_element(channel, "lastBuildDate", format_datetime(generated_at))
 
-    if matched_items:
-        for item in matched_items:
-            add_rss_item(channel, item)
-    else:
-        add_no_updates_item(channel)
+    add_weekly_digest_item(channel, matched_items, generated_at)
 
     indent(rss, space="  ")
     ElementTree(rss).write(DIGEST_FILE, encoding="utf-8", xml_declaration=True)
 
-    return len(matched_items) if matched_items else 1
+    return 1
 
 
 def markdown_link(title, link):
@@ -390,7 +388,6 @@ def create_markdown_archive(matched_items, total_checked):
 
     now = datetime.now(timezone.utc)
     archive_file = ARCHIVES_DIR / f"{now.date().isoformat()}-digest.md"
-    limited_items = matched_items[:TOP_MATCH_LIMIT]
     lines = [
         "# Weekly Canadian Health Monitor Digest",
         "",
@@ -406,7 +403,7 @@ def create_markdown_archive(matched_items, total_checked):
     if not matched_items:
         lines.append("No relevant Canadian health monitor updates found this week.")
     else:
-        for number, item in enumerate(limited_items, start=1):
+        for number, item in enumerate(matched_items, start=1):
             keywords = ", ".join(item["keywords"])
             link = item["link"] or ""
 

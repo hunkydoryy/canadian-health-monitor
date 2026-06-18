@@ -5,24 +5,25 @@
     <link>https://example.com/digest.xml</link>
     <description>Weekly Canadian EMR, EHR, digital health, privacy, cybersecurity, CIHI, Infoway, and regulatory updates.</description>
     <language>en-ca</language>
-    <lastBuildDate>Thu, 18 Jun 2026 19:30:18 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 19:55:58 +0000</lastBuildDate>
     <item>
-      <title>N.L. health-care workers got an email promising a day off — but it was only a cybersecurity test</title>
-      <link>https://www.cbc.ca/news/canada/newfoundland-labrador/nlhs-phishing-email-9.7238374?cmp=rss</link>
-      <description>Source: CBC Health
-Matched keywords: digital health
-Published: Wed, 17 Jun 2026 09:35:14 EDT</description>
-      <pubDate>Wed, 17 Jun 2026 13:35:14 +0000</pubDate>
-      <guid isPermaLink="true">https://www.cbc.ca/news/canada/newfoundland-labrador/nlhs-phishing-email-9.7238374?cmp=rss</guid>
-    </item>
-    <item>
-      <title>Canada to create Health Sector Data Space — CIHI named as part of the government’s AI strategy</title>
-      <link>https://www.cihi.ca/en/news/canada-to-create-health-sector-data-space-cihi-named-as-part-of-the-governments-ai-strategy</link>
-      <description>Source: Canadian Institute for Health Information
-Matched keywords: CIHI, health data
-Published: June 10, 2026</description>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.cihi.ca/en/news/canada-to-create-health-sector-data-space-cihi-named-as-part-of-the-governments-ai-strategy</guid>
+      <title>Weekly Canadian Health Monitor Digest - 2026-06-18</title>
+      <link>https://example.com/digest.xml</link>
+      <description>Top updates
+
+- N.L. health-care workers got an email promising a day off — but it was only a cybersecurity test
+  Source: CBC Health
+  Published: Wed, 17 Jun 2026 09:35:14 EDT
+  Matched keywords: digital health
+  Link: https://www.cbc.ca/news/canada/newfoundland-labrador/nlhs-phishing-email-9.7238374?cmp=rss
+
+- Canada to create Health Sector Data Space — CIHI named as part of the government’s AI strategy
+  Source: Canadian Institute for Health Information
+  Published: June 10, 2026
+  Matched keywords: CIHI, health data
+  Link: https://www.cihi.ca/en/news/canada-to-create-health-sector-data-space-cihi-named-as-part-of-the-governments-ai-strategy</description>
+      <pubDate>Thu, 18 Jun 2026 19:55:58 +0000</pubDate>
+      <guid isPermaLink="false">weekly-digest-2026-06-18</guid>
     </item>
   </channel>
 </rss>
