@@ -1,8 +1,8 @@
 # Canadian Health Monitor
 
-This is a beginner-friendly Python project that reads Canadian health-related RSS and Atom feeds, filters for relevant digital health topics, and creates a simple weekly digest.
+This is a beginner-friendly Python project that reads Canadian health-related RSS and Atom feeds, filters for relevant digital health topics, and creates a simple digest.
 
-Right now, the project runs locally on your computer. It does not send email, post to Slack, summarize with AI, or impersonate anyone.
+The project can run locally on your computer, and GitHub Actions is configured to check for new data once per day. It does not send email, post to Slack, summarize with AI, or impersonate anyone.
 
 ## What It Does
 
@@ -32,7 +32,7 @@ It contains:
 
 This is the main Python script.
 
-It reads `sources.json`, fetches feeds, filters relevant items, creates `digest.xml`, and saves a weekly Markdown archive.
+It reads `sources.json`, fetches feeds, filters relevant items, creates `digest.xml`, and saves a Markdown archive.
 
 ### `digest.xml`
 
@@ -72,6 +72,20 @@ The script will print matched items in the terminal and create or update:
 
 - `digest.xml`
 - a Markdown file in `archives/`
+
+## Run Automatically
+
+GitHub Actions runs the digest once per day using `.github/workflows/daily-digest.yml`.
+
+The scheduled run is:
+
+```text
+12:00 UTC every day
+```
+
+That is usually 8:00 AM in Toronto during daylight saving time and 7:00 AM during standard time.
+
+You can also run it manually from the GitHub Actions tab by choosing `Daily Digest` and selecting `Run workflow`.
 
 ## Filtering Logic
 
