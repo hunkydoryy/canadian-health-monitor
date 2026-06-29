@@ -5,11 +5,17 @@
     <link>https://example.com/digest.xml</link>
     <description>Weekly Canadian EMR, EHR, digital health, privacy, cybersecurity, CIHI, Infoway, and regulatory updates.</description>
     <language>en-ca</language>
-    <lastBuildDate>Thu, 25 Jun 2026 19:01:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 19:25:01 +0000</lastBuildDate>
     <item>
-      <title>Weekly Canadian Health Monitor Digest - 2026-06-25</title>
+      <title>Weekly Canadian Health Monitor Digest - 2026-06-29</title>
       <link>https://example.com/digest.xml</link>
       <description>Top updates
+
+- Canadians spending more time waiting for emergency health care: CIHI
+  Source: Global News Health
+  Published: Fri, 26 Jun 2026 18:59:20 +0000
+  Matched keywords: CIHI
+  Link: https://globalnews.ca/news/11938222/emergency-room-wait-times-cihi-report/
 
 - Headed to the ER? Here's why you could now wait more than 48 hours to be admitted
   Source: CBC Health
@@ -22,8 +28,8 @@
   Published: Wed, 24 Jun 2026 04:00:00 EDT
   Matched keywords: health data
   Link: https://www.cbc.ca/news/health/vital-health-data-privacy-9.7245577?cmp=rss</description>
-      <pubDate>Thu, 25 Jun 2026 19:01:37 +0000</pubDate>
-      <guid isPermaLink="false">weekly-digest-2026-06-25</guid>
+      <pubDate>Mon, 29 Jun 2026 19:25:01 +0000</pubDate>
+      <guid isPermaLink="false">weekly-digest-2026-06-29</guid>
     </item>
   </channel>
 </rss>
