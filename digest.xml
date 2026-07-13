@@ -5,25 +5,13 @@
     <link>https://example.com/digest.xml</link>
     <description>Weekly Canadian EMR, EHR, digital health, privacy, cybersecurity, CIHI, Infoway, and regulatory updates.</description>
     <language>en-ca</language>
-    <lastBuildDate>Mon, 06 Jul 2026 19:22:01 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 18:50:56 +0000</lastBuildDate>
     <item>
-      <title>Weekly Canadian Health Monitor Digest - 2026-07-06</title>
+      <title>Weekly Canadian Health Monitor Digest - 2026-07-13</title>
       <link>https://example.com/digest.xml</link>
-      <description>Top updates
-
-- Data breaches in Quebec are on the rise. How safe is the province’s new digital health records system?
-  Source: CBC Health
-  Published: Thu, 02 Jul 2026 04:00:00 EDT
-  Matched keywords: digital health
-  Link: https://www.cbc.ca/player/play/9.7255477?cmp=rss
-
-- Canadians spending more time waiting for emergency health care: CIHI
-  Source: Global News Health
-  Published: Fri, 26 Jun 2026 18:59:20 +0000
-  Matched keywords: CIHI
-  Link: https://globalnews.ca/news/11938222/emergency-room-wait-times-cihi-report/</description>
-      <pubDate>Mon, 06 Jul 2026 19:22:01 +0000</pubDate>
-      <guid isPermaLink="false">weekly-digest-2026-07-06</guid>
+      <description>No relevant Canadian health monitor updates found this week.</description>
+      <pubDate>Mon, 13 Jul 2026 18:50:56 +0000</pubDate>
+      <guid isPermaLink="false">weekly-digest-2026-07-13</guid>
     </item>
   </channel>
 </rss>
