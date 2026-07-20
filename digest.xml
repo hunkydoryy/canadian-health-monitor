@@ -5,13 +5,31 @@
     <link>https://example.com/digest.xml</link>
     <description>Weekly Canadian EMR, EHR, digital health, privacy, cybersecurity, CIHI, Infoway, and regulatory updates.</description>
     <language>en-ca</language>
-    <lastBuildDate>Mon, 13 Jul 2026 18:50:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 19:15:05 +0000</lastBuildDate>
     <item>
-      <title>Weekly Canadian Health Monitor Digest - 2026-07-13</title>
+      <title>Weekly Canadian Health Monitor Digest - 2026-07-20</title>
       <link>https://example.com/digest.xml</link>
-      <description>No relevant Canadian health monitor updates found this week.</description>
-      <pubDate>Mon, 13 Jul 2026 18:50:56 +0000</pubDate>
-      <guid isPermaLink="false">weekly-digest-2026-07-13</guid>
+      <description>Top updates
+
+- News release: Privacy Commissioner of Canada presents global Privacy and Human Rights Award to Canadian health research lab
+  Source: Office of the Privacy Commissioner of Canada - News
+  Published: Mon, 20 Jul 26 00:00:00 -0400
+  Matched keywords: privacy, health
+  Link: https://www.priv.gc.ca/en/opc-news/news-and-announcements/2026/nr-c_260720/
+
+- Media advisory: Privacy Commissioner of Canada to present 2026 global Privacy and Human Rights Award to Canadian health research laboratory
+  Source: Office of the Privacy Commissioner of Canada - News
+  Published: Fri, 17 Jul 26 00:00:00 -0400
+  Matched keywords: privacy, health
+  Link: https://www.priv.gc.ca/en/opc-news/news-and-announcements/2026/ma_260717/
+
+- Helping Canadians access safe, effective treatments and medicines faster
+  Source: Health Canada
+  Published: 2026-07-15T15:40:08-04:00
+  Matched keywords: regulatory, health, medical
+  Link: https://www.canada.ca/en/health-canada/news/2026/07/helping-canadians-access-safe-effective-treatments-and-medicines-faster.html</description>
+      <pubDate>Mon, 20 Jul 2026 19:15:05 +0000</pubDate>
+      <guid isPermaLink="false">weekly-digest-2026-07-20</guid>
     </item>
   </channel>
 </rss>
