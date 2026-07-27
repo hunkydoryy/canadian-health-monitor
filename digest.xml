@@ -5,11 +5,23 @@
     <link>https://example.com/digest.xml</link>
     <description>Weekly Canadian EMR, EHR, digital health, privacy, cybersecurity, CIHI, Infoway, and regulatory updates.</description>
     <language>en-ca</language>
-    <lastBuildDate>Mon, 20 Jul 2026 19:15:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 15:41:43 +0000</lastBuildDate>
     <item>
-      <title>Weekly Canadian Health Monitor Digest - 2026-07-20</title>
+      <title>Weekly Canadian Health Monitor Digest - 2026-07-27</title>
       <link>https://example.com/digest.xml</link>
       <description>Top updates
+
+- Statement from the Minister of Health and the Minister of Industry on Advancing Canada's Pharmaceutical and Life Sciences Sector
+  Source: Health Canada
+  Published: 2026-07-24T11:30:25-04:00
+  Matched keywords: regulation, health
+  Link: https://www.canada.ca/en/health-canada/news/2026/07/statement-from-the-minister-of-health-and-the-minister-of-industry-on-advancing-canadas-pharmaceutical-and-life-sciences-sector.html
+
+- Doctors are using a regulatory gap to prescribe an unauthorized peptide
+  Source: CBC Health
+  Published: Fri, 24 Jul 2026 08:53:28 EDT
+  Matched keywords: regulatory, health, patient
+  Link: https://www.cbc.ca/news/investigates/unauthorized-peptide-loophole-bpc157-9.7281300?cmp=rss
 
 - News release: Privacy Commissioner of Canada presents global Privacy and Human Rights Award to Canadian health research lab
   Source: Office of the Privacy Commissioner of Canada - News
@@ -28,8 +40,8 @@
   Published: 2026-07-15T15:40:08-04:00
   Matched keywords: regulatory, health, medical
   Link: https://www.canada.ca/en/health-canada/news/2026/07/helping-canadians-access-safe-effective-treatments-and-medicines-faster.html</description>
-      <pubDate>Mon, 20 Jul 2026 19:15:05 +0000</pubDate>
-      <guid isPermaLink="false">weekly-digest-2026-07-20</guid>
+      <pubDate>Mon, 27 Jul 2026 15:41:43 +0000</pubDate>
+      <guid isPermaLink="false">weekly-digest-2026-07-27</guid>
     </item>
   </channel>
 </rss>
