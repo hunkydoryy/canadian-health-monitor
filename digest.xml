@@ -2,13 +2,13 @@
 <rss version="2.0">
   <channel>
     <title>Canadian Health Monitor</title>
-    <link>https://example.com/digest.xml</link>
+    <link>https://raw.githubusercontent.com/hunkydoryy/canadian-health-monitor/main/digest.xml</link>
     <description>Weekly Canadian EMR, EHR, digital health, privacy, cybersecurity, CIHI, Infoway, and regulatory updates.</description>
     <language>en-ca</language>
     <lastBuildDate>Mon, 03 Aug 2026 15:42:21 +0000</lastBuildDate>
     <item>
       <title>Weekly Canadian Health Monitor Digest - 2026-08-03</title>
-      <link>https://example.com/digest.xml</link>
+      <link>https://raw.githubusercontent.com/hunkydoryy/canadian-health-monitor/main/digest.xml</link>
       <description>Top updates
 
 - E-scooters driving ‘huge’ number of child injuries, doctors say: ‘Not toys’
