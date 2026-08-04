@@ -23,7 +23,7 @@ RSS_DESCRIPTION = (
     "Weekly Canadian EMR, EHR, digital health, privacy, cybersecurity, CIHI, "
     "Infoway, and regulatory updates."
 )
-RSS_LINK = "https://example.com/digest.xml"
+RSS_LINK = "https://raw.githubusercontent.com/hunkydoryy/canadian-health-monitor/main/digest.xml"
 DAYS_BACK = 14
 TOP_MATCH_LIMIT = 25
 REQUEST_TIMEOUT_SECONDS = 15
