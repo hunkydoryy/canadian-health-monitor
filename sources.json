@@ -15,6 +15,11 @@
       "Canadian Institute for Health Information",
       "Infoway",
       "Canada Health Infoway",
+      "Digital Health Canada",
+      "Canadian Healthcare Technology",
+      "OntarioMD",
+      "Ontario MD",
+      "Ontario Health",
       "interoperability",
       "FHIR",
       "HL7",
@@ -65,6 +70,24 @@
       "homepage": "https://www.cihi.ca/en",
       "requires_keyword_match": false,
       "priority_score": 100
+    },
+    {
+      "name": "Digital Health Canada",
+      "kind": "digital_health_association",
+      "feed_format": "rss",
+      "feed_url": "https://digitalhealthcanada.com/feed/",
+      "homepage": "https://digitalhealthcanada.com/",
+      "requires_keyword_match": false,
+      "priority_score": 80
+    },
+    {
+      "name": "Canadian Healthcare Technology",
+      "kind": "health_technology_news",
+      "feed_format": "rss",
+      "feed_url": "https://canhealth.com/feed/",
+      "homepage": "https://canhealth.com/",
+      "requires_keyword_match": true,
+      "priority_score": 70
     },
     {
       "name": "Canadian Institutes of Health Research",
@@ -145,6 +168,18 @@
       "kind": "official_digital_health",
       "page_url": "https://www.infoway-inforoute.ca/en/news-events/announcements",
       "reason": "Important for digital health and interoperability, but no working RSS or Atom feed was found during setup."
+    },
+    {
+      "name": "OntarioMD",
+      "kind": "provincial_digital_health",
+      "page_url": "https://www.ontariomd.ca/",
+      "reason": "Important Ontario digital health and EMR source, but no working RSS or Atom feed was found during setup."
+    },
+    {
+      "name": "Ontario Health",
+      "kind": "provincial_health_agency",
+      "page_url": "https://www.ontariohealth.ca/about-us/news-events",
+      "reason": "Important provincial health system source, but no working RSS or Atom feed was found during setup."
     }
   ]
 }
