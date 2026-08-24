@@ -5,11 +5,29 @@
     <link>https://raw.githubusercontent.com/hunkydoryy/canadian-health-monitor/main/digest.xml</link>
     <description>Weekly Canadian EMR, EHR, digital health, privacy, cybersecurity, CIHI, Infoway, and regulatory updates.</description>
     <language>en-ca</language>
-    <lastBuildDate>Mon, 17 Aug 2026 13:38:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 13:50:51 +0000</lastBuildDate>
     <item>
-      <title>Weekly Canadian Health Monitor Digest - 2026-08-17</title>
+      <title>Weekly Canadian Health Monitor Digest - 2026-08-24</title>
       <link>https://raw.githubusercontent.com/hunkydoryy/canadian-health-monitor/main/digest.xml</link>
       <description>Top updates
+
+- Invitation to Participate in 2026 Canadian Public Company Study
+  Source: Digital Health Canada
+  Published: Thu, 20 Aug 2026 17:00:57 +0000
+  Matched keywords: digital health
+  Link: https://digitalhealthcanada.com/invitation-to-participate-in-2026-canadian-public-company-study/
+
+- Sonny Kohli joins Brockville General as CMIO
+  Source: Canadian Healthcare Technology
+  Published: Wed, 19 Aug 2026 00:09:25 +0000
+  Matched keywords: digital health
+  Link: https://www.canhealth.com/2026/08/19/sonny-kohli-joins-brockville-general-as-cmio/
+
+- Winnipeg hospital working with cyber experts
+  Source: Canadian Healthcare Technology
+  Published: Wed, 19 Aug 2026 00:04:56 +0000
+  Matched keywords: cybersecurity, ransomware, health, healthcare, hospital
+  Link: https://www.canhealth.com/2026/08/19/winnipeg-hospital-working-with-cyber-experts/
 
 - How 45+ years of partnership is driving transformation in Canada
   Source: Digital Health Canada
@@ -21,51 +39,9 @@
   Source: Canadian Healthcare Technology
   Published: Wed, 12 Aug 2026 00:08:41 +0000
   Matched keywords: ransomware, health, healthcare, hospital
-  Link: https://www.canhealth.com/2026/08/12/ransomware-hits-doors-hvac-at-winnipeg-hospital/
-
-- AlayaCare tests integration with acute care, LTC
-  Source: Canadian Healthcare Technology
-  Published: Wed, 12 Aug 2026 00:07:21 +0000
-  Matched keywords: interoperability
-  Link: https://www.canhealth.com/2026/08/12/alayacare-tests-integration-with-acute-care-ltc/
-
-- WELL Health adds to executive team
-  Source: Canadian Healthcare Technology
-  Published: Wed, 12 Aug 2026 00:05:19 +0000
-  Matched keywords: digital health
-  Link: https://www.canhealth.com/2026/08/12/well-health-adds-to-executive-team/
-
-- Contaminated surgical tools found in Grande Prairie operating room in April, AHS records show
-  Source: CBC Health
-  Published: Tue, 11 Aug 2026 08:00:00 EDT
-  Matched keywords: privacy, hospital
-  Link: https://www.cbc.ca/news/canada/edmonton/grande-prairie-hospital-contaminated-instruments-9.7301849?cmp=rss
-
-- From rear-view mirror to timelier insight: CIHI’s plan to transform Canada’s hospital data
-  Source: Canadian Institute for Health Information
-  Published: August 10, 2026
-  Matched keywords: CIHI
-  Link: https://www.cihi.ca/en/news/from-rear-view-mirror-to-timelier-insight-cihis-plan-to-transform-canadas-hospital-data
-
-- Connected care: Canada’s health data to move as fast as patients do
-  Source: Canadian Institute for Health Information
-  Published: August 10, 2026
-  Matched keywords: CIHI, health data
-  Link: https://www.cihi.ca/en/news/connected-care-canadas-health-data-to-move-as-fast-as-patients-do
-
-- The foundation of transformative health data is trust
-  Source: Canadian Institute for Health Information
-  Published: August 10, 2026
-  Matched keywords: CIHI, health data
-  Link: https://www.cihi.ca/en/news/the-foundation-of-transformative-health-data-is-trust
-
-- What TalkToMedi learned at e-Health about building for Canadian healthcare
-  Source: Digital Health Canada
-  Published: Tue, 04 Aug 2026 20:18:25 +0000
-  Matched keywords: digital health
-  Link: https://digitalhealthcanada.com/talktomedi/</description>
-      <pubDate>Mon, 17 Aug 2026 13:38:17 +0000</pubDate>
-      <guid isPermaLink="false">weekly-digest-2026-08-17</guid>
+  Link: https://www.canhealth.com/2026/08/12/ransomware-hits-doors-hvac-at-winnipeg-hospital/</description>
+      <pubDate>Mon, 24 Aug 2026 13:50:51 +0000</pubDate>
+      <guid isPermaLink="false">weekly-digest-2026-08-24</guid>
     </item>
   </channel>
 </rss>
