@@ -5,37 +5,43 @@
     <link>https://raw.githubusercontent.com/hunkydoryy/canadian-health-monitor/main/digest.xml</link>
     <description>Weekly Canadian EMR, EHR, digital health, privacy, cybersecurity, CIHI, Infoway, and regulatory updates.</description>
     <language>en-ca</language>
-    <lastBuildDate>Mon, 31 Aug 2026 19:24:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 18:07:06 +0000</lastBuildDate>
     <item>
-      <title>Weekly Canadian Health Monitor Digest - 2026-08-31</title>
+      <title>Weekly Canadian Health Monitor Digest - 2026-09-07</title>
       <link>https://raw.githubusercontent.com/hunkydoryy/canadian-health-monitor/main/digest.xml</link>
       <description>Top updates
+
+- Global Strategies in Digital Health
+  Source: Digital Health Canada
+  Published: Wed, 02 Sep 2026 22:06:36 +0000
+  Matched keywords: digital health
+  Link: https://digitalhealthcanada.com/global-strategies-in-digital-health/
+
+- Lakeridge Health earns EMRAM 7 from HIMSS
+  Source: Canadian Healthcare Technology
+  Published: Wed, 02 Sep 2026 00:09:14 +0000
+  Matched keywords: electronic medical record
+  Link: https://www.canhealth.com/2026/09/02/lakeridge-health-earns-emram-7-from-himss/
+
+- Announcing NIHI fall courses
+  Source: Canadian Healthcare Technology
+  Published: Wed, 02 Sep 2026 00:01:32 +0000
+  Matched keywords: privacy, health, healthcare
+  Link: https://www.canhealth.com/2026/09/02/announcing-nihi-fall-courses/
+
+- As more teens turn to AI for emotional support, experts say it's no substitute for human connection
+  Source: CBC Health
+  Published: Tue, 01 Sep 2026 04:00:00 EDT
+  Matched keywords: regulation, health
+  Link: https://www.cbc.ca/news/health/ai-teenagers-mental-health-study-9.7327227?cmp=rss
 
 - E-scooter hospitalizations up by 40% in past year: CIHI
   Source: Global News Health
   Published: Wed, 26 Aug 2026 18:07:59 +0000
   Matched keywords: CIHI
-  Link: https://globalnews.ca/news/12035679/escooter-hospitalizations-increase-cihi/
-
-- Scarborough awarded HIMSS EMRAM Level 7
-  Source: Canadian Healthcare Technology
-  Published: Wed, 26 Aug 2026 00:08:44 +0000
-  Matched keywords: electronic medical record
-  Link: https://www.canhealth.com/2026/08/26/scarborough-awarded-himss-emram-level-7/
-
-- SickKids attacked by cybercriminals, employee data stolen
-  Source: Canadian Healthcare Technology
-  Published: Wed, 26 Aug 2026 00:06:07 +0000
-  Matched keywords: cybersecurity, health, healthcare, hospital
-  Link: https://www.canhealth.com/2026/08/26/sickkids-attacked-by-cybercriminals-employee-data-stolen/
-
-- Invitation to Participate in 2026 Canadian Public Company Study
-  Source: Digital Health Canada
-  Published: Thu, 20 Aug 2026 17:00:57 +0000
-  Matched keywords: digital health
-  Link: https://digitalhealthcanada.com/invitation-to-participate-in-2026-canadian-public-company-study/</description>
-      <pubDate>Mon, 31 Aug 2026 19:24:12 +0000</pubDate>
-      <guid isPermaLink="false">weekly-digest-2026-08-31</guid>
+  Link: https://globalnews.ca/news/12035679/escooter-hospitalizations-increase-cihi/</description>
+      <pubDate>Mon, 07 Sep 2026 18:07:06 +0000</pubDate>
+      <guid isPermaLink="false">weekly-digest-2026-09-07</guid>
     </item>
   </channel>
 </rss>
