@@ -5,19 +5,55 @@
     <link>https://raw.githubusercontent.com/hunkydoryy/canadian-health-monitor/main/digest.xml</link>
     <description>Weekly Canadian EMR, EHR, digital health, privacy, cybersecurity, CIHI, Infoway, and regulatory updates.</description>
     <language>en-ca</language>
-    <lastBuildDate>Mon, 21 Sep 2026 18:29:23 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 20:00:02 +0000</lastBuildDate>
     <item>
-      <title>Weekly Canadian Health Monitor Digest - 2026-09-21</title>
+      <title>Weekly Canadian Health Monitor Digest - 2026-09-28</title>
       <link>https://raw.githubusercontent.com/hunkydoryy/canadian-health-monitor/main/digest.xml</link>
       <description>Top updates
 
-- Digital Health Canada awards AI innovation in virtual surgical planning
+- Can AI Help with Prior Authorization Without Replacing Human Judgment?
   Source: Digital Health Canada
-  Published: Mon, 14 Sep 2026 14:31:53 +0000
+  Published: Mon, 28 Sep 2026 17:08:48 +0000
   Matched keywords: digital health
-  Link: https://digitalhealthcanada.com/digital-health-canada-awards-ai-innovation-in-virtual-surgical-planning/</description>
-      <pubDate>Mon, 21 Sep 2026 18:29:23 +0000</pubDate>
-      <guid isPermaLink="false">weekly-digest-2026-09-21</guid>
+  Link: https://digitalhealthcanada.com/can-ai-help-with-prior-authorization/
+
+- Intergovernmental Collaborations to Drive Interoperability
+  Source: Digital Health Canada
+  Published: Fri, 25 Sep 2026 20:50:32 +0000
+  Matched keywords: digital health, interoperability
+  Link: https://digitalhealthcanada.com/intergovernmental-collaborations-to-drive-interoperability/
+
+- University of Victoria School of Health Information Science In-Person Open House
+  Source: Digital Health Canada
+  Published: Thu, 24 Sep 2026 18:12:38 +0000
+  Matched keywords: digital health, health information
+  Link: https://digitalhealthcanada.com/university-of-victoria-school-of-health-information-science-in-person-open-house/
+
+- Former Infoway CEO sues for wrongful dismissal
+  Source: Canadian Healthcare Technology
+  Published: Wed, 23 Sep 2026 00:10:23 +0000
+  Matched keywords: Infoway, Canada Health Infoway
+  Link: https://www.canhealth.com/2026/09/23/former-infoway-ceo-sues-for-wrongful-dismissal/
+
+- Cyber attack at Nipigon District Hospital
+  Source: Canadian Healthcare Technology
+  Published: Wed, 23 Sep 2026 00:08:00 +0000
+  Matched keywords: ransomware, health, healthcare, hospital, patient
+  Link: https://www.canhealth.com/2026/09/23/cyber-attack-at-nipigon-district-hospital/
+
+- Three MUHC projects selected by digital health fund
+  Source: Canadian Healthcare Technology
+  Published: Wed, 23 Sep 2026 00:06:03 +0000
+  Matched keywords: digital health
+  Link: https://www.canhealth.com/2026/09/23/three-muhc-projects-selected-by-digital-health-fund/
+
+- Announcing NIHI fall courses
+  Source: Canadian Healthcare Technology
+  Published: Wed, 23 Sep 2026 00:01:23 +0000
+  Matched keywords: privacy, health, healthcare
+  Link: https://www.canhealth.com/2026/09/23/announcing-nihi-fall-courses-4/</description>
+      <pubDate>Mon, 28 Sep 2026 20:00:02 +0000</pubDate>
+      <guid isPermaLink="false">weekly-digest-2026-09-28</guid>
     </item>
   </channel>
 </rss>
