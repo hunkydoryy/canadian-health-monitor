@@ -5,31 +5,37 @@
     <link>https://raw.githubusercontent.com/hunkydoryy/canadian-health-monitor/main/digest.xml</link>
     <description>Weekly Canadian EMR, EHR, digital health, privacy, cybersecurity, CIHI, Infoway, and regulatory updates.</description>
     <language>en-ca</language>
-    <lastBuildDate>Mon, 19 Oct 2026 19:02:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 19:02:02 +0000</lastBuildDate>
     <item>
-      <title>Weekly Canadian Health Monitor Digest - 2026-10-19</title>
+      <title>Weekly Canadian Health Monitor Digest - 2026-10-26</title>
       <link>https://raw.githubusercontent.com/hunkydoryy/canadian-health-monitor/main/digest.xml</link>
       <description>Top updates
+
+- Introducing the refreshed 2026 Health Informatics Professional (HIP®) Core Competencies Framework
+  Source: Digital Health Canada
+  Published: Mon, 26 Oct 2026 14:51:36 +0000
+  Matched keywords: digital health, health data
+  Link: https://digitalhealthcanada.com/introducing-the-refreshed-2026-health-informatics-professional-hip-core-competencies-framework/
+
+- CAHIMS/CPHIMS Job Analysis Survey
+  Source: Digital Health Canada
+  Published: Fri, 23 Oct 2026 20:12:30 +0000
+  Matched keywords: digital health
+  Link: https://digitalhealthcanada.com/cahims-cphims-job-analysis-survey/
+
+- PolicyArc brings AI agents under control
+  Source: Canadian Healthcare Technology
+  Published: Wed, 21 Oct 2026 00:05:19 +0000
+  Matched keywords: privacy, health, healthcare
+  Link: https://www.canhealth.com/2026/10/21/policyarc-brings-ai-agents-under-control/
 
 - Safe and effective health products for Canadians: New authorizations between July and September 2026
   Source: Health Canada
   Published: 2026-10-15T14:20:00-04:00
   Matched keywords: regulatory, health, medical
-  Link: https://www.canada.ca/en/health-canada/news/2026/10/safe-and-effective-health-products-for-canadians-new-authorizations-between-july-and-september-2026.html
-
-- MEDFAR acquires front-desk AI agent
-  Source: Canadian Healthcare Technology
-  Published: Wed, 14 Oct 2026 00:06:07 +0000
-  Matched keywords: electronic medical record
-  Link: https://www.canhealth.com/2026/10/14/medfar-acquires-front-desk-ai-agent/
-
-- Envisioning a Digitally Enabled Canada: Digital Health Canada Future Leader Award Winner Brian Lo
-  Source: Digital Health Canada
-  Published: Wed, 07 Oct 2026 15:46:48 +0000
-  Matched keywords: digital health
-  Link: https://digitalhealthcanada.com/award-winner-brian-lo/</description>
-      <pubDate>Mon, 19 Oct 2026 19:02:36 +0000</pubDate>
-      <guid isPermaLink="false">weekly-digest-2026-10-19</guid>
+  Link: https://www.canada.ca/en/health-canada/news/2026/10/safe-and-effective-health-products-for-canadians-new-authorizations-between-july-and-september-2026.html</description>
+      <pubDate>Mon, 26 Oct 2026 19:02:02 +0000</pubDate>
+      <guid isPermaLink="false">weekly-digest-2026-10-26</guid>
     </item>
   </channel>
 </rss>
